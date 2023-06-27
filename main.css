@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.664),(0, 0, 0, 0.726)),url(img/about-header.pic1);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.74);
+    background-size: cover;
+}
+
+
+fieldset{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74),(0, 0, 0, 0.76));
+    border: 0.1em solid black;
+    margin-left: 350px;
+    padding: 200px;
+    width: 10px;
+    height: 200px;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h4{
+    color: wheat;
+    margin-left: 150px;
+    text-decoration-line: underline;
+}
+
+
+input{
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 10px;
+    width: 300px;
+    color: white;
+}
+
+
+button{
+    border: 0.1em solid gray;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: rgb(39, 39,245);
+    margin-left: 100px;
+}
+
+
+button:hover{
+    transform: scale(1.3);
+    color: rgb(255, 0, 0);
+}
+
+
+a{
+    color: gold;
+}
+
+
+h5{
+    color: white;
+}
